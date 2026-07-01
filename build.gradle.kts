@@ -4,11 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.wachecker"
+    // Klasör yapısıyla tam uyumlu benzersiz paket adı
+    namespace = "com.ilham.wachecker"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.wachecker"
+        applicationId = "com.ilham.wachecker"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
